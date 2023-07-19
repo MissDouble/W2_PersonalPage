@@ -1,0 +1,210 @@
+img{
+    vertical-align: middle;
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bruno Ace SC", serif;
+}
+button {
+    font-family: "Bruno Ace SC", serif;
+}
+
+.bg{
+    background: #000000;
+}
+
+.d-flex{
+    display: flex;
+
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.header{
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.header p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #D1D1D1;
+
+}
+.header p:nth-child(3){
+    width: 306px;
+}
+.william{
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+h2{
+    font-size: 64px;
+    line-height: 1.5;
+    color: #fff;
+}
+.color-black{
+    color: #000000;
+}
+.color-white{
+    color: #fff;
+}
+.title{
+    width: 636px;
+}
+.ml-24{
+    margin-left: 24px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+.mb-36{
+    margin-bottom: 36px;
+}
+.ml-16{
+    margin-left: 16px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+/* .mb-4{
+    margin-bottom: 4px;
+} */
+.ml-134{
+    margin-left: 134px;
+}
+h1{
+    text-align: right;
+    color: #00FFA3;
+    font-size: 128px;
+    line-height: 1.5;
+}
+.btn{
+    padding: 12px 24px 12px 24px;
+    border-radius: 32px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+    display: block;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+.bg-img{
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    background-position: center;
+    background-size: cover;
+}
+.introduction{
+    justify-content: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.introduction-text {
+    width: 526px;
+}
+.introduction-text p{
+    font-size: 24px;
+    line-height: 1.5;
+    color: #fff;
+    padding-top: 36px;
+    margin-bottom: 32px;
+}
+
+.introduction-img {
+    width: 746px;
+    justify-content: space-between;
+}
+.mr-16{
+    margin-right: 16px;
+}
+.aboutMe{
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.aboutMe-card{
+    width: 636px;
+    height: 328px;
+    flex-wrap: wrap;
+}
+.aboutMe-text{
+    width: 526px;
+}
+.card{
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px #00000014;
+    width: 306px;
+    padding: 16px;
+}
+.card p:nth-child(1), .card p:nth-child(2){
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+.card p:nth-child(3){
+    font-size: 16px;
+    line-height: 1.5;
+}
+.text{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.contactMe-bg{
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contactMe{
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 113px;
+}
+.social img{
+    width: 162px;    
+}
+.social img:hover{
+
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    filter: drop-shadow(0px 0px 16px #9094FF);
+}
+.myProject{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.myProject h2{
+    width: 746px;
+    margin-left: auto;
+}
+.up-msg{
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
